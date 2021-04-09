@@ -32,4 +32,4 @@ This will run a flask server on port 5000 that with three end-points:
 
 ```GET /chain``` Gives the current chain with all it's blocks
 
-```POST /mine``` Takes all the transactions before the last mine and then creates a new block with it
+```POST /mine``` Takes all the transactions after the last mine and then creates a new block with it
