@@ -1,9 +1,8 @@
-# Blockchain - Explaination
-
+# Blockchain - Explanation
 
 ## **Block**
 
-A block is a record that is linked to it's predecesor successor with a unique hash.
+A block is a record that is linked to it's predecessor successor with a unique hash.
 
 ## **Block Chain**
 
@@ -11,14 +10,14 @@ A block chain is a collection of these linked blocks. Block chains is required f
 
 
 ###  **Qualities of Blockchains**
-* Immutiable
+* Immutable
 * Persistent
-* Distrubuted
+* Distributed
 
 ### **Proof of Work**
 In order to keep a chronological history of previous blocks in the chain, a **nonce** is required. A nonce is the number of leading 0 bits when creating a new hash.
 
-The number of leading bit is known as **difficulty**. Thus the amount of work for generating a new hash exponentially increases per block created. It also makes modifying previous blocks close to impossibile as you need to create the following blocks in the chain.
+The number of leading bit is known as **difficulty**. Thus the amount of work for generating a new hash exponentially increases per block created. It also makes modifying previous blocks close to impossible as you need to create the following blocks in the chain.
 
 What you will find in this project is an example of simple block chain in Python using an **SHA-256** Hash.
 
